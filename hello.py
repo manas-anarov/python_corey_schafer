@@ -1,60 +1,84 @@
-# student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
-# print (student['cources'])
+# language = 'Java'
 
-
-# student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
-# print (student.get('asdasd', 'Not found'))
-
-
-# student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
-
-# student['phone'] = '555-5555'
-# student['name'] = 'Jane'
-# student.update({'name' : 'Jane', age: 26, })
-# # print (student.get('phone', 'Not found'))
-# print (student)
+# if language == 'Python':
+# 	print('Conditional was True')
+# elif language == 'Java':
+# 	print('Language is Java')
+# elif language == 'JavaScript':
+# 	print('Language is JavaScript')
+# else:
+# 	print('No match')
 
 
 
-# student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
-
-# student.update({'name' : 'Jane', 'age': 26, 'phone': '555-5555'})
-# print (student)
+# user = 'Admin'
+# logged_in = False
 
 
-# student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
-
-# del student['age']
-# print (student)
+# if user == 'Admin' or logged_in:
+# 	print('Admin Page')
+# else:
+# 	print('Bad Creds')
 
 
 
-# student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
-
-# age = student.pop('age')
-
-
-# print (student)
-# print (age)
+# user = 'Admin'
+# logged_in = False
 
 
+# if not logged_in:
+# 	print('Please login')
+# else:
+# 	print('Welcome')
 
 
-# student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
+# a = [1, 2, 3]
+# b = a
 
-# print (len(student))
+# print(id(a))
+# print(id(b))
 
-
-# student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
-
-# print (student.keys())
-
-# student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
-
-# print (student.items())
+# print(a == b)
 
 
-student  = {'name' : 'John', 'age': 25, 'cources': ['Math', 'CompSci']}
 
-for key, value in student.items():
-	print (key, value)
+# a = [1, 2, 3]
+# b = a
+
+# print(id(a))
+# print(id(b))
+
+# print(id(a) == id(b))
+
+
+# condition = False
+
+# if condition:
+# 	print('Evaluated to True')
+# else:
+# 	print('Evaluated to False')
+
+
+# condition = None
+# condition = 0
+# if condition:
+# 	print('Evaluated to True')
+# else:
+# 	print('Evaluated to False')
+
+
+
+# condition = ''
+
+# if condition:
+# 	print('Evaluated to True')
+# else:
+# 	print('Evaluated to False')
+
+
+condition = 'Test'
+
+if condition:
+	print('Evaluated to True')
+else:
+	print('Evaluated to False')
