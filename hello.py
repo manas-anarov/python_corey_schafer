@@ -1,84 +1,28 @@
-# language = 'Java'
+# nums = [1, 2, 3, 4, 5]
 
-# if language == 'Python':
-# 	print('Conditional was True')
-# elif language == 'Java':
-# 	print('Language is Java')
-# elif language == 'JavaScript':
-# 	print('Language is JavaScript')
-# else:
-# 	print('No match')
+# for num in nums:
+# 	for letter in 'abc':
+# 		print(num, letter)
 
 
+# for i in range(1, 11):
+# 	print(i)
 
-# user = 'Admin'
-# logged_in = False
 
+# x = 0
 
-# if user == 'Admin' or logged_in:
-# 	print('Admin Page')
-# else:
-# 	print('Bad Creds')
+# while x < 10:
+# 	if x == 5:
+# 		break
+# 	print(x)
+# 	x += 1
 
 
 
-# user = 'Admin'
-# logged_in = False
+x = 0
 
-
-# if not logged_in:
-# 	print('Please login')
-# else:
-# 	print('Welcome')
-
-
-# a = [1, 2, 3]
-# b = a
-
-# print(id(a))
-# print(id(b))
-
-# print(a == b)
-
-
-
-# a = [1, 2, 3]
-# b = a
-
-# print(id(a))
-# print(id(b))
-
-# print(id(a) == id(b))
-
-
-# condition = False
-
-# if condition:
-# 	print('Evaluated to True')
-# else:
-# 	print('Evaluated to False')
-
-
-# condition = None
-# condition = 0
-# if condition:
-# 	print('Evaluated to True')
-# else:
-# 	print('Evaluated to False')
-
-
-
-# condition = ''
-
-# if condition:
-# 	print('Evaluated to True')
-# else:
-# 	print('Evaluated to False')
-
-
-condition = 'Test'
-
-if condition:
-	print('Evaluated to True')
-else:
-	print('Evaluated to False')
+while True:
+	# if x == 5:
+	# 	break
+	print(x)
+	x += 1
